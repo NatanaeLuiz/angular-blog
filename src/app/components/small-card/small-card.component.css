@@ -1,0 +1,22 @@
+.container__small-card{
+    border: 1px solid white;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.small-card__photo > img{
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.samll-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.samll-card__title > h1 > a {
+    text-decoration: none;
+}
