@@ -1,7 +1,6 @@
 .container__big-card{
     margin-left: 20px;
     margin-right: 20px;
-    border: solid white 2px;
     width: 400px;
     height: 500px;
     display: flex;

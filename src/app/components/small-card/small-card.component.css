@@ -1,5 +1,4 @@
 .container__small-card{
-    border: 1px solid white;
     width: 500px;
     display: flex;
     flex-direction: row;
