@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card__title">
+        <h2> {{ nome }}</h2>
+    </div>
+    <div class="card__body">
+        <img src="" alt="">
+    </div>
+    <div class="card__stats">
+        <span
+        class="card__stats__type"
+        *ngFor="let type of attributesTypes"
+      >
+        {{ type | uppercase | lowercase }}
+      </span>
+    </div>
+</div>
