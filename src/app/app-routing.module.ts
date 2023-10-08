@@ -12,6 +12,9 @@ const routes: Routes = [
   {
     path:'conteudo/:id',
     component:ConteudoComponent
+  },
+  {
+    path:'**', redirectTo:'' //Rota Coringa para redirecionar o usuario para a rota principal
   }
 ];
 
