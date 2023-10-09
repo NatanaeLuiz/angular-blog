@@ -6,6 +6,10 @@
     flex-direction: column;
     background-color: #232323;
     border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
   
   .card__title{
@@ -48,4 +52,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+.card_input{
+    color: white;
   }
